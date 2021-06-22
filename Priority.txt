@@ -1,0 +1,17 @@
+bool priority[4] = { false };
+
+for (i = 0; i < players; i++)
+{
+    for (j = players - 1; j >= 0; j--)
+    {
+        if (userSteps[i] == userSteps[j])
+        {
+            
+            userSteps[j] = 0;
+            if (userSteps[j] == 0)
+            {
+                break;
+            }
+        }
+    }
+}

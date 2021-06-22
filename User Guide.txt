@@ -1,0 +1,29 @@
+1.  Enter the game
+    1.1 Enter the number of players (between 2 people to 4 people).
+    1.2 Enter a name for each player (all player names must be different).
+2.  Start the game
+    2.1 At the beginning, all players are on the 0, which is the starting point of the game.
+    2.2 Each player will roll the dice on his turn and moving on the dashboard based on the point he gets.
+3.  Dice rules
+    3.1 In generally, each player can only roll the dice once on his turn.
+    3.2 But when the player rolls to 6 points, he has another chance to roll the dice.
+    3.3 This situation will continue until he rolls a point that other than 6.
+4.  Events
+    4.1 Snakes
+        4.1.1 When the player hits on a snake head, he will get a penalty and drop to the snake tail.
+        4.1.2 There are totally 6 invisible snakes distributed on the dashboard randomly.
+    4.2 Ladders
+        4.2.1 When the player hits on a ladder, he can climb up the ladder.
+        4.2.2 There are totally 6 invisible ladders distributed on the dashboard randomly.
+    4.1 Overlap
+        4.1.1 When a player hits on another player, the previous player on that space will be kicked back to starting point (0).
+        4.1.2 This situation also will happen when a player hit on another player through drop form snake head to snake tail or climb up the ladder.
+5.  Condition
+    5.1 When the player steps on the 100 accurately, then he wins.
+    5.2 It was not be counted if the player moves over 100.
+        5.2.1 For example, when the player currently on 99, then he rolls the dice and gets 4 points.
+        5.2.2 The player will not be considered as the winner and he needs to take steps back based on the points he overflows.
+        5.2.3 In this example, the player has to take 3 steps back and lastly he will end on 97.
+6.  Winner
+    6.1 A player only be considered as the winner once he steps on 100 accurately.
+    6.2 Only one winner will exist in each game.
